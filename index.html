@@ -16,7 +16,7 @@
     <a href="#">Testimonials</a>
     <a href="#">Contact Us</a>
 
-      <img src="../simplotelassignment/Assets/menu-bar.png" class="icon" onclick="myFunction()" class="hamNav" alt="Menu">
+      <img src="../simplotelassignment/Assets/menu-bar.png" class="icon" onclick="hamnavclick()" class="hamNav" alt="Menu">
 
   </div>
   <div class="firstMainDiv" >
@@ -73,7 +73,7 @@
 </div>
 </body>
 <script>
-     function myFunction() {
+     function hamnavclick() {
     var x = document.getElementById("nav");
     if (x.className === "navbar") {
       x.className += " responsive";
